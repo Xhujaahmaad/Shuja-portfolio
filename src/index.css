@@ -2,11 +2,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,10 +22,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -46,6 +40,9 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+header.header-main {
+    background: black;
+}
 button:hover {
   border-color: #646cff;
 }
@@ -54,15 +51,32 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+.page-width{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 20px;
+}
+
+img.shuja-ahmad {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+}
+
+.menu-item ul li a {
+    color: white;
 }
