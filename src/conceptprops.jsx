@@ -17,6 +17,7 @@ const defaultSlides = [
 
 
 function ConceptSlider({slides}) { 
+
  const dataToRender = slides && slides.length > 0 ? slides : defaultSlides;
   return (
     <div className="slider-container" style={{ width: "100%" }}>
@@ -38,6 +39,7 @@ function ConceptSlider({slides}) {
             </div>
           </SwiperSlide>
         ))}
+        
       </Swiper>
     </div>
   );

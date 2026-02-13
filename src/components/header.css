@@ -1,0 +1,22 @@
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 20px;
+}
+
+img.shuja-ahmad {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+}
+
+.menu-item ul li a {
+    color: white;
+}

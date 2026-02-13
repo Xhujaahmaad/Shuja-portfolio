@@ -1,6 +1,7 @@
-import logo from "./assets/shuja.png";
+import logo from "../assets/shuja.png";
+import './header.css'
 
-function Header() {
+export default function Header() {
   return (
     <>
       <header className="header-main">
@@ -31,4 +32,4 @@ function Header() {
   );
 }
 
-export default Header;
+
