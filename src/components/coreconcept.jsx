@@ -22,7 +22,7 @@ function CoreConcept() {
   }
 
   return (
-    <section className="page-width">
+    <div className="core-concept">
       <Tabbutton
         isactivetab={selectedTopic === "Component"}
         label="Component"
@@ -42,9 +42,9 @@ function CoreConcept() {
       />
 
       <Tabbutton
-        isactivetab={selectedTopic === "state"}
-        label="state"
-        onSelect={() => handleClick("state")}
+        isactivetab={selectedTopic === "State"}
+        label="State"
+        onSelect={() => handleClick("State")}
       />
 
       <div className="tabcontent" id="tab-content">
@@ -64,7 +64,7 @@ function CoreConcept() {
           <code>{example[selectedTopic].code}</code>
         </pre>
       </div>
-    </section>
+    </div>
   );
 }
 

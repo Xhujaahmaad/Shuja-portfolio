@@ -25,6 +25,7 @@ const defaultSlides = [
     title: "WordPress",
     description: "Fast & scalable websites",
   },
+  
 ];
 
 function ConceptSlider({ slides = defaultSlides }) {

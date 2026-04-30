@@ -3,9 +3,11 @@ import Header from "./components/header.jsx";
 import Fiveyear from "./shuja.jsx";
 import MySlider from "./conceptprops.jsx";
 import "./App.css";
+// import Tabs from "./components/tab.jsx";
 import CoreConcept from "./components/coreconcept.jsx";
 import SplashCursor from "./components/SplashCursor.jsx";
 import ScrollReveal from "./components/Scrollreveal.jsx";
+import Section from "./components/Section.jsx";
 
 
 // import someIcon from './assets/shopify.svg';
@@ -20,15 +22,20 @@ function App() {
       <main>
         <Header />
       </main>
-      <section className="page-width">
+      <Section className="page-width" id="five-year">
         <Fiveyear />
-      </section>
-      <section className="page-width">
+      </Section>
+      <Section className="page-width">
         <MySlider />
-      </section>
-      <section className="page-width">
-  <CoreConcept />
-  </section>
+      </Section>
+      <Section className="page-width">
+        <CoreConcept />
+      </Section>
+         {/* <Section className="page-width" id="core-concepts">
+        <Tabs />
+      </Section> */}
+
+  
   
 
       {/* <section className="page-width">
