@@ -26,7 +26,7 @@ function App() {
       <Section className="page-width" id="five-year">
         <Fiveyear />
       </Section>
-      <Section className="page-width">
+      <Section className="page-width ">
         <MySlider />
       </Section>
       <Section className="page-width">

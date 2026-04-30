@@ -4,7 +4,7 @@ import './header.css'
 export default function Header() {
   return (
     <>
-      <header className="header-main">
+      <header className="header-main main-haedaer">
         <div className="wrapper page-width">
           <div className="main-header">
             <div className="developer-name">
