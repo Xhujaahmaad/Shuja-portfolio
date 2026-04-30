@@ -15,6 +15,7 @@ import Section from "./components/Section.jsx";
 //   { image: someIcon, title: "Mobile Apps", description: "iOS and Android" }
 // ];
 
+
 function App() {
   return (
     <>
