@@ -6,17 +6,20 @@ const skills = [
   {
     title: "Shopify",
     logo: shopifyLogo,
-    summary: "Custom Shopify storefronts, theme edits, and conversion-focused sections.",
+    summary:
+      "Custom Shopify storefronts, theme edits, and conversion-focused sections.",
   },
   {
     title: "WordPress",
     logo: wordpressLogo,
-    summary: "Business websites with clean structure, fast loading, and easy content updates.",
+    summary:
+      "Business websites with clean structure, fast loading, and easy content updates.",
   },
   {
     title: "React",
     logo: reactLogo,
-    summary: "Modern frontends with reusable components and responsive user interfaces.",
+    summary:
+      "Modern frontends with reusable components and responsive user interfaces.",
   },
 ];
 

@@ -1,12 +1,14 @@
-export default function Tabbutton({label , onSelect , isactivetab }) {
-  return (
-    <>
-      <div className="tab-button">
-        <button onClick={onSelect} className={`tab-button-item ${isactivetab ? 'active' : ''}`}>{ label}</button>
-      </div>
-    </>
-  );
-}
+
+
+// export default function Tabbutton({label , onSelect , isactivetab }) {
+//   return (
+//     <>
+//       <div className="tab-button">
+//         <button onClick={onSelect} className={`tab-button-item ${isactivetab ? 'active' : ''}`}>{ label}</button>
+//       </div>
+//     </>
+//   );
+// }
 // export default function Tabbutton({children}) {
 //   return (
 //     <>
